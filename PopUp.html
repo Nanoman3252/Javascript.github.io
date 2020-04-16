@@ -38,8 +38,11 @@
 				input.className='';
 			}
 			function DarPassword(){
-				var caja = document.getElementById("caja");	
-				caja.innerHTML = "La contraseña es Nanoman3252";
+				var caja = document.getElementById("caja");
+				var texto = document.getElementById("TxtNombre");
+				if (texto.value=='Cesar de Jesus Navarro Barron'){
+					caja.innerHTML = "La contraseña es Nanoman3252";
+				}
 			}
 		</script>
 	</head>
